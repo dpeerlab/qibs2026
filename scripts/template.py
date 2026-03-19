@@ -7,8 +7,8 @@
 # ## Library imports
 
 # %%
-from fancypackage import DATA_DIR, FIG_DIR
-from fancypackage.io import read_zarr
+from quibs import DATA_DIR, FIG_DIR
+from quibs.io import read_zarr
 
 # %% [markdown]
 # ## General settings
