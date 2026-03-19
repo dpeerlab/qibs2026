@@ -3,24 +3,26 @@ requires = ['setuptools', 'setuptools_scm']
 build-backend = 'setuptools.build_meta'
 
 [project]
-name = "fancypackage"
+name = "quibs"
 version = "0.0.0"
-description = "Fancy Package"
+description = "QUIBS 2026 Module 6 workshop"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 license = {file = "LICENSE"}
 authors = [
-    {name = "Jane Doe"},
+    {name = "Philipp Weiler"},
+    {name = "Cassandra Burdziak"},
 ]
 maintainers = [
-    {name = "Jane Doe", email = "jane.doe@usa.com"},
+    {name = "Philipp Weiler", email = "weilerp@mskcc.org"},
 ]
-urls.Documentation = "https://todo.com"  # TODO
-urls.Source = "https://github.com/url/to/repo.git"
-urls.Home-page = "https://github.com/url/to/repo.git"
+urls.Documentation = "https://github.com/dpeerlab/quibs2026"  # TODO
+urls.Source = "https://github.com/dpeerlab/quibs2026"
+urls.Home-page = "https://github.com/dpeerlab/quibs2026"
 dependencies = [
     "anndata>=0.12.5",
     "dask",
+    "pybedtools",
     "scanpy",
     "zarr>3",
 ]
@@ -59,7 +61,7 @@ profile = "black"
 use_parentheses = true
 known_num = "networkx,jax,numba,numpy,pandas,pyro,scipy,sklearn,statmodels,torch"
 known_plot = "matplotlib,mplscience,mpl_toolkits,seaborn"
-known_bio = "anndata,scanpy,scvi"
+known_bio = "anndata,pybedtools,scanpy,scvi"
 sections = "FUTURE,STDLIB,THIRDPARTY,NUM,PLOT,BIO,FIRSTPARTY,LOCALFOLDER"
 no_lines_before = "LOCALFOLDER"
 balanced_wrapping = true
