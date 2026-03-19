@@ -25,8 +25,6 @@ DATASET_ID = ""
 if SAVE_FIGURES:
     (FIG_DIR / DATASET_ID).mkdir(parents=True, exist_ok=True)
 
-FIGURE_FORMAT = "pdf"
-
 # %% [markdown]
 # ## Function definitions
 
