@@ -3,9 +3,9 @@ requires = ['setuptools', 'setuptools_scm']
 build-backend = 'setuptools.build_meta'
 
 [project]
-name = "quibs"
+name = "qibs"
 version = "0.0.0"
-description = "QUIBS 2026 Module 6 workshop"
+description = "QIBS 2026 Module 6 workshop"
 readme = "README.md"
 requires-python = ">=3.12"
 license = {file = "LICENSE"}
@@ -16,9 +16,9 @@ authors = [
 maintainers = [
     {name = "Philipp Weiler", email = "weilerp@mskcc.org"},
 ]
-urls.Documentation = "https://github.com/dpeerlab/quibs2026"  # TODO
-urls.Source = "https://github.com/dpeerlab/quibs2026"
-urls.Home-page = "https://github.com/dpeerlab/quibs2026"
+urls.Documentation = "https://github.com/dpeerlab/qibs2026"  # TODO
+urls.Source = "https://github.com/dpeerlab/qibs2026"
+urls.Home-page = "https://github.com/dpeerlab/qibs2026"
 dependencies = [
     "anndata>=0.12.5",
     "dask",
