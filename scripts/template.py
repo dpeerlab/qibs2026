@@ -7,8 +7,8 @@
 # ## Library imports
 
 # %%
-from qibs import DATA_DIR, FIG_DIR
-from qibs.io import read_zarr
+from qibs2026 import DATA_DIR, FIG_DIR
+from qibs2026.io import read_zarr
 
 # %% [markdown]
 # ## General settings
