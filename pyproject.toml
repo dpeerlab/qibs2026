@@ -3,7 +3,7 @@ requires = ['setuptools', 'setuptools_scm']
 build-backend = 'setuptools.build_meta'
 
 [project]
-name = "qibs"
+name = "qibs2026"
 version = "0.0.0"
 description = "QIBS 2026 Module 6 workshop"
 readme = "README.md"
@@ -22,6 +22,8 @@ urls.Home-page = "https://github.com/dpeerlab/qibs2026"
 dependencies = [
     "anndata>=0.12.5",
     "dask",
+    "igraph",
+    "pyarrow",
     "pybedtools",
     "scanpy",
     "zarr>3",
