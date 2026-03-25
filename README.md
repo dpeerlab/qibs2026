@@ -41,12 +41,11 @@ Please setup this repository as follows
 ```bash
 ssh cayuga-login
 cd /athena/qibs_class/scratch/CWID/optional/additional/path
-git clone https://GHUSERNAME:GHPAT@github.com/dpeerlab/qibs2026.git
+git clone https://github.com/dpeerlab/qibs2026.git
 ```
 
-where _GHUSERNAME_ is your GitHub username, and _GHPAT_ your [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens). All provided commands assume that the
-qibs2026 repository is at the base of your scratch directory; i.e., make sure the adjust the commands if your setup
-differs.
+All provided commands assume that the qibs2026 repository is at the base of your scratch directory; i.e., make sure the
+adjust the commands if your setup differs.
 
 ### Job submission
 
