@@ -94,6 +94,24 @@ easy access the data directory in Python from anywhere via the `DATA_DIR` variab
 from qibs2026 import DATA_DIR
 ```
 
+## Lab instructions
+
+### Lab 1
+
+In our first lab, we will implement a standard scRNA-seq analysis pipeline. The corresponding Jupyter notebook includes
+questions for which you will provide the answers to using the worksheet you have received.
+
+-   **Data**: copy the data for this lab into the data directory
+
+```bash
+cp -r /athena/qibs_class/scratch/pfw4001/data/lab_1 /athena/qibs_class/scratch/CWID/qibs2026/data/
+```
+
+-   **Notebook**: `notebooks/lab_1/sc_basics.ipynb`
+-   **Deadline for worksheet**: April 2 at 12pm ET
+
+Please email the worksheet to weilerp@mskcc.org, using the file format `worksheet_1_LASTNAME.xlsx`
+
 ## Installation
 
 There is no need to install anything since we will use an existing conda environment. However, these are the commands I
