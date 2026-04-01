@@ -110,7 +110,20 @@ cp -r /athena/qibs_class/scratch/pfw4001/data/lab_1 /athena/qibs_class/scratch/C
 -   **Notebook**: `notebooks/lab_1/sc_basics.ipynb`
 -   **Deadline for worksheet**: April 2 at 12pm ET
 
-Please email the worksheet to weilerp@mskcc.org, using the file format `worksheet_1_LASTNAME.xlsx`
+Please upload the worksheet and notebook to the Google Drive we shared with you, using the file format `worksheet_1_LASTNAME.xlsx` and `sc_basics_LASTNAME.ipynb`.
+
+### Lab 2
+
+In out second lab, we will discuss analysing single-cell perturbation data! The corresponding notebooks again includes questions for you to answer. As for the first lab, please upload the answer sheet and notebook following the same naming convention as before.
+
+-   **Data**: either use the `DATA_DIR` variable or copy the data for this lab into the data directory and import from there
+
+```bash
+cp -r /athena/qibs_class/scratch/pfw4001/data/lab_2 /athena/qibs_class/scratch/CWID/qibs2026/data/
+```
+
+-   **Notebook**: `notebooks/lab_2/sc_perturbseq.ipynb`
+-   **Deadline for worksheet**: April 9 at 12pm ET
 
 ## Installation
 
