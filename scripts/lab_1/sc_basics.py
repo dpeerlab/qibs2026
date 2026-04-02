@@ -28,7 +28,7 @@
 #   </div>
 # </div>
 #
-# Additionally, questions are color-coded green. Use the file _worksheet_1.xlsx_ to provide your answers and send them to weilerp@mskcc.org; name the file *worksheet_1_LASTNAME.xlsx*. **The deadline for submitting your answers is April 2 at 12pm ET**.
+# Additionally, questions are color-coded green. Use the file _worksheet_1.xlsx_ to provide your answers and upload both the answer sheet and notebook to the Google Drive folder shared with you; name the files *worksheet_1_LASTNAME.xlsx* and *sc_basics_LASTNAME.ipynb*. **The deadline for submitting your answers is April 2 at 12pm ET**.
 #
 # <div style="padding: 10px; border-radius: 1px; width: 60%">
 #   <div style="background-color: rgb(114, 134, 86); color: white; padding: 10px; border-radius: 5px 5px 0 0; margin: -10px -10px 10px -10px; width: 20%; display: inline-block; text-align: center; vertical-align: middle">
@@ -238,7 +238,7 @@ DATASET_ID = "lab_1"
 #   </div>
 #
 #   <ul>
-#     <li>Compute the library size, i.e., the , and report its median.</li>
+#     <li>Compute the library size and report its median.</li>
 #     <li>Compute the number of total unique genes captured in each cell, and report its median.</li>
 #     <li>Compute the log1p-transformation of each statistics.</li>
 #     <li>Add each statistic as a column to the <code>obs_data</code> DataFrame (names <code>"total_counts"</code>, <code>"log1p_total_counts"</code>, <code>"n_genes_by_counts"</code>, <code>"log1p_n_genes_by_counts"</code>).</li>
