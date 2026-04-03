@@ -136,4 +136,6 @@ pip install -e ".[dev,jupyter]"
 pre-commit install
 
 python -m ipykernel install --user --name qibs-py312 --display-name "qibs-py312"
+
+conda install -c bioconda bedtools --yes
 ```
