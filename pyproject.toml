@@ -23,6 +23,7 @@ dependencies = [
     "anndata>=0.12.5",
     "dask",
     "igraph",
+    "mudata",
     "pyarrow",
     "pybedtools",
     "scanpy",
@@ -63,7 +64,7 @@ profile = "black"
 use_parentheses = true
 known_num = "networkx,igraph,jax,numba,numpy,pandas,pyro,scipy,sklearn,statsmodels,torch,umap"
 known_plot = "matplotlib,mplscience,mpl_toolkits,seaborn"
-known_bio = "anndata,pybedtools,scanpy,scvi"
+known_bio = "anndata,mudata,pybedtools,scanpy,scvi"
 sections = "FUTURE,STDLIB,THIRDPARTY,NUM,PLOT,BIO,FIRSTPARTY,LOCALFOLDER"
 no_lines_before = "LOCALFOLDER"
 balanced_wrapping = true
