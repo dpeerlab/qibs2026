@@ -114,7 +114,7 @@ Please upload the worksheet and notebook to the Google Drive we shared with you,
 
 ### Lab 2
 
-In out second lab, we will discuss analysing single-cell perturbation data! The corresponding notebooks again includes questions for you to answer. As for the first lab, please upload the answer sheet and notebook following the same naming convention as before.
+In our second lab, we will discuss analysing single-cell perturbation data! The corresponding notebook again includes questions for you to answer. As for the first lab, please upload the answer sheet and notebook following the same naming convention as before.
 
 -   **Data**: either use the `DATA_DIR` variable or copy the data for this lab into the data directory and import from there
 
@@ -124,6 +124,19 @@ cp -r /athena/qibs_class/scratch/pfw4001/data/lab_2 /athena/qibs_class/scratch/C
 
 -   **Notebook**: `notebooks/lab_2/sc_perturbseq.ipynb`
 -   **Deadline for worksheet**: April 9 at 12pm ET
+
+### Lab 3
+
+In our third lab, we will discuss analysing single-cell ATAC data! There are again questions for you to answer in the correspoding notebook. Please upload the answer sheet and notebook following the same naming convention as before.
+
+-   **Data**: either use the `DATA_DIR` variable or copy the data for this lab into the data directory and import from there
+
+```bash
+cp -r /athena/qibs_class/scratch/pfw4001/data/lab_3 /athena/qibs_class/scratch/CWID/qibs2026/data/
+```
+
+-   **Notebook**: `notebooks/lab_3/scatacseq.ipynb`
+-   **Deadline for worksheet**: April 29 at 12pm ET
 
 ## Installation
 
@@ -136,4 +149,6 @@ pip install -e ".[dev,jupyter]"
 pre-commit install
 
 python -m ipykernel install --user --name qibs-py312 --display-name "qibs-py312"
+
+conda install -c bioconda bedtools --yes
 ```
