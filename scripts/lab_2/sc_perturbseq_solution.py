@@ -100,7 +100,7 @@ assert adata.obs.loc[:, guide_rna_cols].sum(axis=1).max() <= 2
 #     <li>How many genes are annotated as highly variable?</li>
 #     <blockquote>5000</blockquote>
 #     <li>How many perturbations are there in total?</li>
-#     <blockquote>237</blockquote>
+#     <blockquote>236</blockquote>
 #     <li>How many cells included a FOXA1 guide?</li>
 #     <blockquote>2182</blockquote>
 #     <li>Which gene is perturbed most frequently and how often? I.e., the gene corresponding to the guide captured most often.</li>
@@ -112,7 +112,7 @@ assert adata.obs.loc[:, guide_rna_cols].sum(axis=1).max() <= 2
 # Implement your solution here
 print(f"Number of HVGs: {adata.var['highly_variable'].sum()}")
 
-print(f"Number of total perturbations: {adata.obs['perturbation_name'].cat.categories.size}")
+print(f"Number of total perturbations: {adata.obs['perturbation_name'].cat.categories.difference(['control']).size}")
 
 print(f"Number cells including a FOXA1 guide: {adata.obs['guide_FOXA1'].sum()}")
 
@@ -214,7 +214,7 @@ for gemgroup in adata.obs["gemgroup"].cat.categories:
 
 # %%
 # Implement your solution here
-z_means = adata.layers["znormed_wrt_control"].mean(axis=0)
+z_means = np.abs(adata.layers["znormed_wrt_control"].mean(axis=0))
 z_mean_argmax = np.argmax(z_means)
 print(
     f"Largest across-cell-average deviation observered in {adata.var_names[z_mean_argmax]} ({z_means[z_mean_argmax]:.4f})"
