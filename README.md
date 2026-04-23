@@ -138,6 +138,19 @@ cp -r /athena/qibs_class/scratch/pfw4001/data/lab_3 /athena/qibs_class/scratch/C
 -   **Notebook**: `notebooks/lab_3/scatacseq.ipynb`
 -   **Deadline for worksheet**: April 29 at 12pm ET
 
+### Lab 4
+
+Our fourth and final lab combines the different data views - the transcriptome via scRNA-seq and chromatin accessibility via scATAC-seq - we have studied so far independently of each other in a single analysis via multiome data. As for the previous sessions, there are questions for you to answer in the correspoding notebook. Please upload the answer sheet and notebook following the same naming convention as before.
+
+-   **Data**: either use the `DATA_DIR` variable or copy the data for this lab into the data directory and import from there
+
+```bash
+cp -r /athena/qibs_class/scratch/pfw4001/data/lab_4 /athena/qibs_class/scratch/CWID/qibs2026/data/
+```
+
+-   **Notebook**: `notebooks/lab_4/scmultiome.ipynb`
+-   **Deadline for worksheet**: April 30 at 12pm ET
+
 ## Installation
 
 There is no need to install anything since we will use an existing conda environment. However, these are the commands I
