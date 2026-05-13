@@ -1,9 +1,0 @@
-title: Single-cell analysis repository
-author: Philipp Weiler
-execute:
-    execute_notebooks: "off"
-
-repository:
-    url: https://github.com/dpeerlab/qibs2026
-html:
-    use_repository_button: true
