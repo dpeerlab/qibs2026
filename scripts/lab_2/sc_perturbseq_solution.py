@@ -1,5 +1,5 @@
 # %% [markdown]
-# # Single-cell perturbation data
+# # Single-cell perturbation data - Solutions
 #
 # In this session, we will discuss analysing single-cell perturbation data by analysing a single-cell CRISPR screen dataset, collected from the K562 lymphoblast cell line and published by [Norman et al. in 2019](https://www.science.org/doi/10.1126/science.aax4438#supplementary-materials). The study presents a library of guide RNAs designed for use with CRISPRa system - a system which enacts up-regulation of the targeted genes - in contrast to standard CRISPR-Cas9 - a system to selectively mutate targeted genes. That said, analysis of this data will entail determining which programs are induced or repressed in response to over-expression of the perturbed gene.
 #

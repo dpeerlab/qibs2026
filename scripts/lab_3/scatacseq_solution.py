@@ -375,9 +375,6 @@ adata.var["log_idf"] = np.log(adata.var["idf"])
 adata.X = csr_matrix(adata.X.multiply(adata.var["log_idf"].values))
 
 # %%
-adata.var["idf"].mean()
-
-# %%
 # Implement your solution here
 fig, ax = plt.subplots(figsize=(6, 4))
 sns.kdeplot(np.log1p(adata.X.sum(axis=1).A1), ax=ax)

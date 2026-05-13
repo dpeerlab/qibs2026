@@ -1,5 +1,5 @@
 # %% [markdown]
-# # Single-cell multiomics
+# # Single-cell multiomics - Solutions
 #
 # This lab analyses a single-cell multiomic dataset (ATAC-seq + RNA-seq), collected from human bone marrow cells, which has been pre-processed with 10X's default CellRanger ARC software and ArchR for the ATAC-seq component. In general, the pre-processing of such data is very similar to the per-modality-specific pipelines from the previous labs, with some exceptions: most notably, cell filtering typically depends on a combination of QC parameters from each technology.
 #
