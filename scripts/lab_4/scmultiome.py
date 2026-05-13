@@ -580,7 +580,7 @@ def scan_pwm(sequence: str, pwm: pd.DataFrame, background: dict[str, float]) -> 
     reverse_complement = reversed(sequence.translate(str.maketrans({"A": "T", "C": "G", "G": "C", "T": "A"})))
     # If you want to work with a string, do
     # reverse_complement = "".join(reverse_complement)
-    scores = _get_score(sequence=reverse_complement)
+    scores = _get_score(sequence=reverse_complement)  # noqa
 
 
 # %% [markdown]
