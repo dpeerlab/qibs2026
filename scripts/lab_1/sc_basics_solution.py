@@ -1,5 +1,5 @@
 # %% [markdown]
-# # scRNA-seq data analysis
+# # scRNA-seq data analysis - Solutions
 #
 # Welcome to QIBS lab 1! In this lab, we will implement a standard scRNA-seq analysis pipeline, including
 #
