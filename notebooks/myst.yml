@@ -1,0 +1,28 @@
+version: 1
+project:
+    title: Single-cell analysis repository
+    authors:
+        - name: Philipp Weiler
+    github: dpeerlab/qibs2026
+    toc:
+        - file: index.md
+        - title: Lab 1 - Single-cell RNA sequencing
+          children:
+              - file: lab_1/sc_basics.ipynb
+              - file: lab_1/sc_basics_solution.ipynb
+        - title: Lab 2 - Single-cell perturbation data
+          children:
+              - file: lab_2/sc_perturbseq.ipynb
+              - file: lab_2/sc_perturbseq_solution.ipynb
+        - title: Lab 3 - Single-cell epigenomics
+          children:
+              - file: lab_3/scatacseq.ipynb
+              - file: lab_3/scatacseq_solution.ipynb
+        - title: Lab 4 - Single-cell multiomics
+          children:
+              - file: lab_4/scmultiome.ipynb
+              - file: lab_4/scmultiome_solution.ipynb
+site:
+    options:
+        folders: true
+    template: book-theme

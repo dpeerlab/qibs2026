@@ -159,3 +159,6 @@ figures/
 *.Rhistory
 
 .vscode/*
+
+# MyST build outputs
+notebooks/_build
