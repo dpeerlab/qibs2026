@@ -1,6 +1,19 @@
 format: jb-book
 root: index
 parts:
-    - caption: Template
+    - caption: Lab 1 - Single-cell RNA sequencing
       chapters:
-          - file: template
+          - file: lab_1/sc_basics.ipynb
+          - file: lab_1/sc_basics_solutions.ipynb
+    - caption: Lab 2 - Single-cell perturbation data
+      chapters:
+          - file: lab_2/sc_perturbseq.ipynb
+          - file: lab_2/sc_perturbseq_solutions.ipynb
+    - caption: Lab 3 - Single-cell epigenomics
+      chapters:
+          - file: lab_3/scatacseq.ipynb
+          - file: lab_3/scatacseq_solutions.ipynb
+    - caption: Lab 4 - Single-cell multiomics
+      chapters:
+          - file: lab_4/scmultiome.ipynb
+          - file: lab_4/scmultiome_solutions.ipynb
