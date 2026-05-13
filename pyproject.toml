@@ -38,6 +38,9 @@ jupyter = [
     "jupyterlab",
     "ipywidgets",
 ]
+docs = [
+    "jupyter-book>=1.0.0",
+]
 
 [tool.black]
 line-length = 120
